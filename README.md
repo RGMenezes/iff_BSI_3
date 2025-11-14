@@ -7,7 +7,7 @@
   - SubPastas: 
     - Exercícios (**ex**) / (**ex01**)
     - Casa (**cs**) / (**cs01**)
-  - Estrutura: models, views e controlers (*optativo*)
+  - Estrutura: *Flexivel*
 - Banco de Dados
   - Tecs: **SQL**, **PlantUML**
   - Pasta: **BD**
