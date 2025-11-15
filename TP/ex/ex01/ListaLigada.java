@@ -1,13 +1,3 @@
-//=================================================
-//	Exercício 01
-//
-//	Adicionar funcionalidades na implementação de 
-//	lista encadeada disponibilizada.
-//
-//	- Incluir elemento em uma posição específica
-//	- Excluir elemento com um determinado dado
-//=================================================
-
 public class ListaLigada {
 	public static void main(String[] args) {
 		ListaEncadeada listaEncadeada = new ListaEncadeada();
