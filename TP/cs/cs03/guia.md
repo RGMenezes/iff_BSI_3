@@ -1,4 +1,4 @@
-## 📚 Lista de Exercícios - Estruturas de Dados
+## Transformação para Generics
 
 * **Professor:** Fábio Duncan 
 * **Data:** 06/12/2025
