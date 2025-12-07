@@ -1,8 +1,8 @@
-## 📚 Lista de Exercícios - Usando pilhas e filas genericas
+## 📚 Lista de Exercícios - Aplicando pilhas e filas
 
 * **Professor:** Fábio Duncan 
 * **Data:** 06/12/2025
-* **Seção 1:** Implementação de Generics
+* **Seção 1:** Aplicação de pilhas e filas
 
 ---
 
