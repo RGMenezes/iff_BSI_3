@@ -57,18 +57,23 @@ public class FilaSequencial<T> implements Fila<T> {
         return size == 0;
     }
 
-    @Override
     public String toString() {
         if (isEmpty()) {
             return "Fila sequencial: empty";
         }
-        String message = "Fila sequencial: ";
 
-        message += "[" + elements[front] + "]";
-        for (int i = proportionalPosition(front); i != proportionalPosition(rear); i = proportionalPosition(i)) {
-            message += " <-- [" + elements[i] + "]";
+        StringBuilder sb = new StringBuilder("Fila sequencial: ");
+
+        int i = front;
+        while (true) {
+            sb.append("[").append(elements[i]).append("]");
+            if (i == rear) break;
+            sb.append(" <-- ");
+
+            i = proportionalPosition(i);
         }
-        return message;
+
+        return sb.toString();
     }
     
     private int proportionalPosition(int positionValue) {
