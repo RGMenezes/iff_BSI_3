@@ -1,4 +1,4 @@
-## 📚 Lista de Exercícios - Aplicando pilhas e filas
+## Lista de Exercícios - Aplicando pilhas e filas
 
 * **Professor:** Fábio Duncan 
 * **Data:** 06/12/2025

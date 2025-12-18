@@ -1,4 +1,4 @@
-## 📚 Lista de Exercícios - Estruturas de Dados
+## Lista de Exercícios - Estruturas de Dados
 
 * **Professor:** Fábio Duncan 
 * **Data:** 03/12/2025
