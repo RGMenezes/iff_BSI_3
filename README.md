@@ -12,8 +12,7 @@
   - Tecs: **SQL**, **PlantUML**
   - Pasta: **BD**
   - SubPastas: 
-    - Exercícios (**ex**) / (**ex01**)
-    - Casa (**cs**) / (**cs01**)
+    - trabalhos
   - Estrutura: *Flexivel*
 
 Este repositório serve como um ponto central para todos os materiais e códigos desenvolvidos nas disciplinas do 3º período do curso de Bacharelado em Sistemas de Informação (BSI) do IFF.
