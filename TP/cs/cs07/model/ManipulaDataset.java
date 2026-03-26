@@ -41,9 +41,9 @@ public class ManipulaDataset {
             }
 
         } catch (IllegalArgumentException e) {
-            System.err.println("Arquivo inválido: " + e.getMessage());
+            throw e;
         } catch (IOException e) {
-            System.err.println("Erro ao ler arquivo: " + e.getMessage());
+            throw new RuntimeException("Erro ao ler arquivo: " + e.getMessage(), e);
         }
     }
 
@@ -70,7 +70,7 @@ public class ManipulaDataset {
             }
 
         } catch (IOException e) {
-            System.err.println("Erro ao escrever arquivo: " + e.getMessage());
+            throw new RuntimeException("Erro ao escrever arquivo: " + e.getMessage(), e);
         }
     }
 }
