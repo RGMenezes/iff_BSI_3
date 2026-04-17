@@ -13,7 +13,7 @@ public class TestBubbleSort {
         arrayS.fillRandomly(0, 1000);
         Array arrayM = new Array(500000);
         arrayM.fillRandomly(0, 1000);
-        Array arrayL = new Array(1100000);
+        Array arrayL = new Array(1000000);
         arrayL.fillRandomly(0, 1000);
 
         Sort bubbleSort = new BubbleSort();
